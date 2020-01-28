@@ -1,0 +1,28 @@
+import java.util.Scanner; // Import the Scanner Class
+
+public class HelloClass { //declaring class
+	public static void main(String[] args) { //opening to every java project
+		int[] age = {12,23,35,102}; //string
+	
+	System.out.println("hello world"); // print hello world
+	boolean isJavaFun = true; //boolean statement
+	boolean isFishTasty = false; //boolean statement
+	System.out.println(isJavaFun) //true
+	System.out.println(isFishTasty); //false
+	Scanner myObj = new Scanner(System.in);
+	System.out.println("Username"); //asking for username
+	
+	String userName = myObj.nextLine(); 
+	System.out.println("Hello " + userName); //saying hello and input for username
+	
+	}
+	
+for (int i = 0; i < 5; i++) { // if i is less than 5 keep adding 1
+	if (i == 4) { // if i is 4 
+	else	break; // end
+	}
+  	System.out.println(i); //print variable i
+}
+
+
+}
